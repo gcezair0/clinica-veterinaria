@@ -1,0 +1,5 @@
+Abra index.html no navegador.
+Projeto básico em HTML e CSS, sem JavaScript ou dependências.
+Login demonstrativo: preencha qualquer usuário e senha.
+Menus conectam as páginas. Formulários e dados são ilustrativos, sem armazenamento.
+Login e início foram baseados no visual observado no Figma. Os módulos internos são uma adaptação básica; seus campos não foram todos legíveis na referência.

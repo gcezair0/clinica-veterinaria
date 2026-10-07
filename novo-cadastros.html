@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Cadastros | Clínica Veterinária
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="inicio.html">
+        Clínica Veterinária
+      </a>
+      <a class="logout" href="index.html" aria-label="Sair">
+        ⇥
+      </a>
+    </header>
+    <nav aria-label="Menu principal">
+      <a href="inicio.html">
+        ⌂
+      </a>
+      <a href="cadastros.html" aria-current="page">
+        CADASTROS
+      </a>
+      <a href="consultas.html">
+        CONSULTAS
+      </a>
+      <a href="tratamentos.html">
+        TRATAMENTOS
+      </a>
+      <a href="exames.html">
+        EXAMES
+      </a>
+      <a href="historico.html">
+        HISTÓRICO
+      </a>
+      <a href="compras.html">
+        COMPRAS
+      </a>
+    </nav>
+    <main>
+      <div class="page-heading">
+        <h1>
+          Cadastros — novo registro
+        </h1>
+      </div>
+      <form>
+        <div class="form-grid">
+          <div class="">
+            <label for="campo-0">
+              Nome
+            </label>
+            <input id="campo-0" type="text">
+          </div>
+          <div class="">
+            <label for="campo-1">
+              Tipo
+            </label>
+            <select id="campo-1">
+              <option>
+                Tutor
+              </option>
+              <option>
+                Paciente
+              </option>
+              <option>
+                Veterinário
+              </option>
+            </select>
+          </div>
+          <div class="">
+            <label for="campo-2">
+              Telefone
+            </label>
+            <input id="campo-2" type="tel">
+          </div>
+          <div class="">
+            <label for="campo-3">
+              E-mail
+            </label>
+            <input id="campo-3" type="email">
+          </div>
+          <div class="">
+            <label for="campo-4">
+              Endereço
+            </label>
+            <input id="campo-4" type="text">
+          </div>
+          <div class="wide">
+            <label for="campo-5">
+              Observações
+            </label>
+            <textarea id="campo-5" rows="4">
+            </textarea>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="button red" type="reset">
+            Limpar
+          </button>
+          <a class="button" href="cadastros.html">
+            Voltar
+          </a>
+        </div>
+        <p class="note">
+          Formulário demonstrativo. Os dados não são armazenados.
+        </p>
+      </form>
+    </main>
+    <footer>
+      Protótipo visual • Dados ilustrativos
+    </footer>
+  </body>
+</html>
